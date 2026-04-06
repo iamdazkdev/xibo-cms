@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter test:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(flutter pub get:*)",
+      "Bash(dart run build_runner build:*)",
+      "Bash(flutter gen-l10n:*)",
+      "Bash(dart format:*)",
+      "Bash(flutter clean:*)",
+      "Bash(ls:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git check-ignore:*)",
+      "WebSearch",
+      "Bash(flutter run:*)",
+      "Bash(flutter build:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}

@@ -27,3 +27,45 @@ tests/http-client.private.env.json
 
 # Hide module/template translate file
 locale/moduletranslate.php
+
+# --- Flutter/Dart/Pub related ---
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+lib/generated_plugin_registrant.dart
+
+# --- Symbolication related ---
+app.*.symbols
+
+# --- Obfuscation related ---
+app.*.map.json
+
+# --- Android Build & Config ---
+*.jks
+*.keystore
+local.properties
+key.properties
+**/android/app/build/
+**/android/.gradle/
+**/android/captures/
+
+# --- iOS & macOS ---
+*.xcuserstate
+*.ipa
+DerivedData/
+Flutter/App.framework
+Flutter/Flutter.framework
+Flutter/Generated.xcconfig
+Flutter/flutter_export_environment.sh
+Flutter/flutter_assets/
+**/macos/Flutter/ephemeral
+
+# --- Windows & Linux ---
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
